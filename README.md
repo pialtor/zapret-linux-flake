@@ -6,9 +6,11 @@
 sudo nix run github:pialtor/zapret-linux-flake --download-deps
 ```
 
-2. Последующий запуск:
+2. Последующие запуски:
 ```
-nix run github:pialtor/zapret-linux-flake
+sudo nix run github:pialtor/zapret-linux-flake
+# или
+sudo nix run github:pialtor/zapret-linux-flake#auto-tune
 ```
 
 # Ссылка на оригинальный репозиторий:
