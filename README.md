@@ -2,7 +2,7 @@
 
 1. Первый запуск:
 ```
-# Подгрузка зависимостей во рабочую директорию (WORK_DIR="/var/lib/zapret-service")
+# Подгрузка зависимостей в рабочую директорию (WORK_DIR="/var/lib/zapret-service")
 sudo nix run github:pialtor/zapret-linux-flake --download-deps
 ```
 
